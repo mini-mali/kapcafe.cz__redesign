@@ -16,5 +16,8 @@
 	"bugs": {
 		"url": "https://github.com/mini-mali/kapcafe.cz__redesign/issues"
 	},
-	"homepage": "https://github.com/mini-mali/kapcafe.cz__redesign#readme"
+	"homepage": "https://github.com/mini-mali/kapcafe.cz__redesign#readme",
+	"devDependencies": {
+		"vite": "^6.0.7"
+	}
 }
