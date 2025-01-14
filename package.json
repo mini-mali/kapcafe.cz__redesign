@@ -19,6 +19,7 @@
 	},
 	"homepage": "https://github.com/mini-mali/kapcafe.cz__redesign#readme",
 	"devDependencies": {
+		"@rollup/rollup-darwin-arm64": "^4.30.1",
 		"rollup": "^4.30.1",
 		"sass": "^1.83.4",
 		"vite": "^6.0.7"
