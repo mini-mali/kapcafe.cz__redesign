@@ -19,5 +19,9 @@
 	"homepage": "https://github.com/mini-mali/kapcafe.cz__redesign#readme",
 	"devDependencies": {
 		"vite": "^6.0.7"
+	},
+	"dependencies": {
+		"@popperjs/core": "^2.11.8",
+		"bootstrap": "^5.3.3"
 	}
 }
