@@ -1,0 +1,145 @@
+{
+	"@context": "https://schema.org",
+	"@type": "BedAndBreakfast",
+	"name": "Kap Café",
+	"servesCuisine": "Breakfast, Coffee, Desserts",
+	"description": "Kap Café is a cozy family-run Bed & Breakfast and Café in Kaplice, offering charming accommodation, hearty breakfasts, and locally loved coffee.",
+	"image": "https://www.kapcafe.cz/assets/images/hero.jpg",
+	"url": "https://www.kapcafe.cz/",
+	"telephone": "+420 384 391 764",
+	"email": "svobodova@kapcafe.cz",
+	"founder": {
+		"@type": "Person",
+		"name": "Jana Svobodová",
+		"description": "Jana is a passionate coffee enthusiast and the founder of Kap Café, known for her dedication to creating a welcoming and sustainable café experience."
+	},
+	"address": {
+		"@type": "PostalAddress",
+		"streetAddress": "Masná 200",
+		"addressLocality": "Kaplice",
+		"postalCode": "382 41",
+		"addressCountry": "CZ"
+	},
+	"hasMap": "https://maps.app.goo.gl/YDD5it1qW8PQSmr4A",
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": 48.738,
+		"longitude": 14.494
+	},
+	"sameAs": [
+		"https://www.facebook.com/KapCafe",
+		"https://www.instagram.com/kapcafekaplice"
+	],
+	"menu": "https://www.kapcafe.cz/menu-kavarna.php",
+	"specialDiet": [
+		"Vegan",
+		"Gluten-free",
+		"Vegetarian"
+	],
+	"priceRange": "100–200 CZK",
+	"checkinTime": "14:00",
+	"checkoutTime": "11:00",
+	"petsAllowed": "false",
+	"numberOfRooms": 4,
+	"starRating": {
+		"@type": "Rating",
+		"ratingValue": "3",
+		"bestRating": "5"
+	},
+	"aggregateRating": {
+		"@type": "AggregateRating",
+		"ratingValue": "4.8",
+		"reviewCount": 648
+	},
+	"awards": [
+		"The best café in the Český Krumlov district (2024, Seznam.cz)",
+		"The best carrot cake (2022)"
+	],
+	"review": [
+		{
+			"@type": "Review",
+			"author": "ultraviolet_aurora",
+			"reviewBody": "Super tasty coffee, cakes and such a lovely place to make a break and chill 🥰 I dont remember when was the last time that someone was so nice and polite and we could have seen that they really love what they are doing (mother and son). 🥰 we are definitely coming back ❤️🙏",
+			"reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "5",
+				"bestRating": "5"
+			}
+		},
+		{
+			"@type": "Review",
+			"author": "Marcel Rebro",
+			"reviewBody": "We stayed for 3 nights. The rooms were modestly equipped, but were very clean and spacious. The breakfast was great, everything was freshly prepared. The staff was very friendly and helpful.",
+			"reviewRating": {
+				"@type": "Rating",
+				"ratingValue": "5",
+				"bestRating": "5"
+			}
+		}
+	],
+	"openingHoursSpecification": [
+		{
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday"
+			],
+			"opens": "08:00",
+			"closes": "20:00"
+		},
+		{
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": "Friday",
+			"opens": "08:00",
+			"closes": "22:00"
+		},
+		{
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Saturday",
+				"Sunday"
+			],
+			"opens": "14:00",
+			"closes": "18:00"
+		}
+	],
+	"amenityFeature": [
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Free Wi-Fi",
+			"value": true
+		},
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Breakfast Included",
+			"value": true
+		},
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Parking",
+			"value": true
+		},
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Credit Card Payment",
+			"value": true
+		},
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Private Lounge",
+			"value": true
+		},
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Garden Seating",
+			"value": true
+		},
+		{
+			"@type": "LocationFeatureSpecification",
+			"name": "Children's Corner",
+			"value": true
+		}
+	]
+}
