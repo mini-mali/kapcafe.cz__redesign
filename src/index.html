@@ -57,7 +57,7 @@
 			</nav>
 		</header>
 
-		<section id="hero" class="container-fluid text-center py-5">
+		<section class="hero container-fluid text-center py-5">
 			<div class="container">
 				<h1 class="display-4 fw-bold">Welcome to Kap Café</h1>
 				<p class="lead">A Cozy Bed & Breakfast and Family-Run Café in Kaplice</p>
@@ -69,7 +69,147 @@
 					<a href="#menu" class="btn btn-outline-secondary btn-lg">Explore Our Menu</a>
 					<a href="#book" class="btn btn-primary btn-lg me-3">Book Your Stay</a>
 				</div>
+
+				<!-- START: 16. 01. 2025 – 17:51  –––––– END: 20:05 ––– SUMA: 2h 15m -->
+				<div class="awards d-flex gap-4 justify-content-center mt-4">
+					<!-- Tripadvisor - variant 1. -->
+					<a
+						href="https://www.tripadvisor.com/Restaurant_Review-g1077292-d12989593-Reviews-Kap_Cafe-Kaplice_South_Bohemian_Region_Bohemia.html?m=69573"
+						target="_blank"
+						class="award d-flex align-items-center gap-2 text-decoration-none">
+						<div class="award__img">
+							<img
+								src="./img/awards/tripadvisor__logo--icon.svg"
+								width="60"
+								height="60"
+								alt="Tripadvisor">
+						</div>
+						<div class="award__text text-start">
+							Tripadvisor<br>
+							<img
+								src="./img/awards/tripadvisor__rating--4.5.svg"
+								width="88"
+								height="16"
+								alt="Tripadvisor - rating 4.5 out of 5">
+						</div>
+					</a>
+
+					<!-- Tripadvisor - variant 2. -->
+					<a
+						href="//www.tripadvisor.com/Restaurant_Review-g1077292-d12989593-Reviews-Kap_Cafe-Kaplice_South_Bohemian_Region_Bohemia.html?m=69573"
+						target="_blank"
+						class="award d-flex align-items-center gap-2 text-decoration-none">
+						<div class="award__img">
+							<img
+								src="./img/awards/tripadvisor__logo-rating--4.5.png"
+								width="60"
+								height="60"
+								alt="Tripadvisor">
+						</div>
+						<div class="award__text text-start">
+							Tripadvisor<br>
+							<b>Excellent</b>
+							<small class="d-block text-muted">7 reviews</small>
+						</div>
+					</a>
+
+					<!-- Booking.com -->
+					<!--
+						TODO:
+						- load rating dynamically
+						- DOCS: https://developers.booking.com/connectivity/docs/property-scores-api/property-scores
+					-->
+					<a
+						href="//www.tripadvisor.com/Restaurant_Review-g1077292-d12989593-Reviews-Kap_Cafe-Kaplice_South_Bohemian_Region_Bohemia.html?m=69573"
+						target="_blank"
+						class="award d-flex align-items-center gap-2 text-decoration-none">
+						<div class="award__img">
+							<img
+								src="./img/awards/booking.com__rating--9.3.png"
+								width="60"
+								height="60"
+								alt="Booking.com - rating 9.3 out of 10">
+						</div>
+						<div class="award__text text-start">
+							Booking.com<br>
+							<b>Suberb</b>
+							<small class="d-block text-muted">548 reviews</small>
+						</div>
+					</a>
+
+					<!-- Google Maps -->
+					<!--
+						TODO:
+						- load rating dynamically
+						- DOCS: https://developers.google.com/my-business/content/review-data
+					-->
+					<a
+						href="//maps.app.goo.gl/YDD5it1qW8PQSmr4A"
+						target="_blank"
+						class="award d-flex align-items-center gap-2 text-decoration-none">
+						<div class="award__img">
+							<img
+								src="./img/awards/google-maps__icon.ico"
+								width="60"
+								height="60"
+								alt="Google Maps">
+						</div>
+						<div class="award__text text-start">
+							Google Maps<br>
+							<b>rating 4.8 out of 5</b>
+							<small class="d-block text-muted">648 reviews</small>
+						</div>
+					</a>
+
+					<!-- Facebook -->
+					<!--
+						TODO:
+						- load rating dynamically
+						- DOCS: ____ADD_LINK_TO_FACEBOOK_API____
+					-->
+					<a
+						href="//www.facebook.com/KapCafe/reviews"
+						target="_blank"
+						class="award d-flex align-items-center gap-2 text-decoration-none">
+						<div class="award__img">
+							<img
+								src="./img/awards/facebook__logo--icon.svg"
+								width="60"
+								height="60"
+								alt="Facebook">
+						</div>
+						<div class="award__text text-start">
+							Facebook<br>
+							<b>98% recommend</b>
+							<small class="d-block text-muted">89 reviews</small>
+						</div>
+					</a>
+
+					<!-- Firmy.cz -->
+					<a
+						href="//en.firmy.cz/top/Restaurant-and-hospitality-services/Cafes/kraj-jihocesky/cesky-krumlov"
+						target="_blank"
+						class="award d-flex align-items-center gap-2 text-decoration-none"
+				style="max-width: 200px;">
+						<div class="award__img">
+							<img
+								src="./img/awards/seznam.cz--120x120.png"
+								width="60"
+								height="60"
+								alt="Seznam.cz - Firmy">
+						</div>
+						<div class="award__text text-start">
+							<!-- 2024<br><b>The best café in the Český Krumlov district</b> -->
+							2024<br><b>Český Krumlov District's Best Café</b>
+							<!--
+								TODO: 
+								- add Tooltip component
+								- explain that locals voted Kap Café as the best Café in Cesky Krumlov District on local equivalet of Google (Seznam.cz)
+							-->
+						</div>
+					</a>
+				</div><!-- /.awards -->
 			</div>
-		</section>
+		</section><!-- /.hero -->
 	</body>
 </html>
