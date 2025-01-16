@@ -125,3 +125,12 @@
 		...
 		...
 		...
+
+
+# 05 – Primary navigation
+-------------------------
+
+		Prompt
+		------
+		from SEO perspective - what items should be ideally for my Café and BnB accomodation?
+
