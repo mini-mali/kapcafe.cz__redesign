@@ -26,9 +26,17 @@
 
 		<meta property="og:title" content="Kap Kafé | Cozy Bed & Breakfast and Café in Kaplice">
 		<meta property="og:description" content="Welcome to Kap Kafé, your serene escape in Kaplice. Savor homemade delights, comfortable rooms, and the warm ambiance of our family-run café and B&B.">
-
-
-
+	<div class="award d-flex align-items-center gap-2">
+		<div class="award__img">
+			<img
+				src="./img/awards/seznam.cz--120x120.png"
+				width="60"
+				height="60"
+				alt="Seznam.cz - Firmy">
+		</div>
+		<div class="award__text text-start">
+			2024<br><b>The best café in the Český Krumlov district</b>
+		</div>
 
 
 # 02 – Create an engaging and SEO-optimized Hero section copy
@@ -125,3 +133,56 @@
 		...
 		...
 		...
+
+
+# 05 – Primary navigation
+-------------------------
+
+		Prompt
+		------
+		from SEO perspective - what items should be ideally for my Café and BnB accomodation?
+
+
+
+# 06 – Awards component
+-------------------------
+
+		Prompt
+		------
+		You are a Front-end developer. Please help me with my project build with Bootstrap 5.3.3. 
+
+		I need to align "award__text" next to the "award__img". The gap between these two divs should be 8px. Is it possible to do it using Bootstrap utilility classes?
+
+		Text inside "award__text" should be aligned to the left.
+
+
+		This is my code:
+			<div class="award">
+				<div class="award__img">
+					<img
+						src="./img/awards/seznam.cz--120x120.png"
+						width="60"
+						height="60"
+						alt="Seznam.cz - Firmy">
+				</div>
+				<div class="award__text">
+					2024<br><b>The best café in the Český Krumlov district</b>
+				</div>
+			</div>
+
+
+		# RESULT
+		--------
+
+			<div class="award d-flex align-items-center gap-2">
+				<div class="award__img">
+					<img
+						src="./img/awards/seznam.cz--120x120.png"
+						width="60"
+						height="60"
+						alt="Seznam.cz - Firmy">
+				</div>
+				<div class="award__text text-start">
+					2024<br><b>The best café in the Český Krumlov district</b>
+				</div>
+			</div>
