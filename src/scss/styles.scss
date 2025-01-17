@@ -1,2 +1,11 @@
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
+
+
+[data-bs-theme="dark"] {
+	footer {
+		.footer-logo {
+			filter: invert(1) brightness(2); 	// Invert logo color
+		}
+	}
+}
